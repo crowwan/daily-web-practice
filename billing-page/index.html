@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>billing page</title>
+  </head>
+  <body style="background-color: #e8e8fd">
+    <div id="wrapper">
+      <div class="container">
+        <aside id="aside">
+          <div class="user-info-box">
+            <img
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+            <div class="user-info-description">
+              <span class="user-id">crowwan</span
+              ><a class="user-info light" href="https://velog.io/@crowwan"
+                >@crowwan</a
+              >
+            </div>
+          </div>
+          <nav>
+            <ul class="navigation-ul">
+              <li class="nav-item">
+                <input type="radio" id="item1" name="nav" />
+                <label for="item1" class="light"
+                  ><i class="far fa-window-restore"></i
+                  ><span>General</span></label
+                >
+              </li>
+              <li class="nav-item">
+                <input type="radio" id="item2" name="nav" />
+                <label for="item2" class="light"
+                  ><i class="fas fa-unlock-alt"></i><span>Password</span></label
+                >
+              </li>
+              <li class="nav-item">
+                <input type="radio" id="item3" name="nav" />
+                <label for="item3" class="light">
+                  <i class="fas fa-envelope-open"></i><span>Invitations</span>
+                </label>
+              </li>
+              <li class="nav-item">
+                <input type="radio" checked id="item4" name="nav" />
+                <label for="item4" class="light"
+                  ><i class="fas fa-file-invoice-dollar"></i
+                  ><span>Billing</span></label
+                >
+              </li>
+              <li class="nav-item">
+                <input type="radio" id="item5" name="nav" />
+                <label for="item5" class="light"
+                  ><i class="fas fa-th"></i><span>Apps</span></label
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="log-out-box light">
+            <i class="fas fa-sign-out-alt"></i>
+            Log out
+          </div>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>
