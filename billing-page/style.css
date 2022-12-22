@@ -16,7 +16,6 @@
   width: 80vw;
   background-color: #fafaff;
   border-radius: 25px;
-  height: 80vh;
   box-shadow: 0px 5px 50px -20px #747399;
   left: 0;
   right: 0;
@@ -27,9 +26,10 @@
   position: absolute;
   top: -5vh;
   z-index: -1;
-  left: -5vh;
+  left: -5rem;
   width: 10rem;
-  height: 90vh;
+  top: -2.5rem;
+  height: calc(100% + 5rem);
   background-color: #ea4c3c;
   border-radius: 25px;
 }
@@ -44,7 +44,6 @@
   max-width: 15rem;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
-  height: 100%;
 }
 
 #aside .user-id {
@@ -116,8 +115,13 @@ input[type="radio"]:checked + label::before {
 /* main */
 main {
   width: 100%;
+  overflow: auto;
+  scrollbar-width: none;
 }
 
+main::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
 #main-section {
   padding: 4rem;
   height: 100%;
@@ -197,6 +201,9 @@ tr {
 }
 .payment-info {
   flex: 1;
+}
+#footer {
+  margin-bottom: 4rem;
 }
 /* section right */
 .right {
