@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Blog Components</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <header class="header">
+          <h1 id="logo">BLOG COMPONENTS</h1>
+          <div class="input-box">
+            <label for="input">
+              <i class="fa-solid fa-magnifying-glass icon"></i>
+              <input
+                type="text"
+                id="input"
+                placeholder="Search articles, topics, etc."
+              />
+            </label>
+            <button class="search-btn">Search</button>
+          </div>
+        </header>
+        <aside id="aside">
+          <div class="recent-post-box">
+            <h4>Recent Posts</h4>
+            <ul class="navigation">
+              <li class="nav-item">
+                <input
+                  type="radio"
+                  id="nav1"
+                  class="input-radio"
+                  name="nav"
+                  checked
+                /><label for="nav1"
+                  >Azure Speech Studio for Mixed Reality</label
+                >
+              </li>
+              <li class="nav-item">
+                <input
+                  type="radio"
+                  id="nav2"
+                  class="input-radio"
+                  name="nav"
+                /><label for="nav2">HoloLens 2 Unreal Project Template</label>
+              </li>
+              <li class="nav-item">
+                <input
+                  type="radio"
+                  id="nav3"
+                  class="input-radio"
+                  name="nav"
+                /><label for="nav3">Simplygon in Azure</label>
+              </li>
+              <li class="nav-item">
+                <input
+                  type="radio"
+                  id="nav4"
+                  class="input-radio"
+                  name="nav"
+                /><label for="nav4">Blender in Azure</label>
+              </li>
+              <li class="nav-item">
+                <input
+                  type="radio"
+                  id="nav5"
+                  class="input-radio"
+                  name="nav"
+                /><label for="nav5">AAD Login on HoloLens 2</label>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <main id="main">
+          <section class="left">
+            <section class="tags">
+              <h4>Tags</h4>
+              <ul class="tag-list">
+                <li class="tag-item">
+                  <input type="checkbox" id="tag1" /><label for="tag1"
+                    >Blender</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag2" /><label for="tag2"
+                    >Browser</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag3" /><label for="tag3"
+                    >cross-platform</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag4" /><label for="tag4"
+                    >HoloLens</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag5" /><label for="tag5"
+                    >Microsoft</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag6" /><label for="tag6"
+                    >Mixed Reality</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag7" /><label for="tag7"
+                    >Modelling</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag8" checked /><label for="tag8"
+                    >MR</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag9" /><label for="tag9"
+                    >Node.js</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag10" /><label for="tag10"
+                    >streamsocket</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag11" checked /><label for="tag11"
+                    >unity</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag12" /><label for="tag12"
+                    >unity3D</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag13" /><label for="tag13"
+                    >unreal engine</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag14" /><label for="tag14"
+                    >VR</label
+                  >
+                </li>
+                <li class="tag-item">
+                  <input type="checkbox" id="tag15" /><label for="tag15"
+                    >websockets</label
+                  >
+                </li>
+              </ul>
+            </section>
+            <section class="posts blank-box">
+              <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus ipsa tenetur est dicta harum fugiat, pariatur, quos
+                distinctio consequuntur aliquam repudiandae vero eligendi aut
+                quisquam? Est modi maxime enim reiciendis.
+              </p>
+            </section>
+            <section class="posts blank-box">
+              <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Delectus ipsa tenetur est dicta harum fugiat, pariatur, quos
+                distinctio consequuntur aliquam repudiandae vero eligendi aut
+                quisquam? Est modi maxime enim reiciendis.
+              </p>
+            </section>
+          </section>
+          <section class="right">
+            <section class="blank-box">
+              <h3>Lorem ipsum dolor</h3>
+              <ul>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+                <li>lorem</li>
+              </ul>
+            </section>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
