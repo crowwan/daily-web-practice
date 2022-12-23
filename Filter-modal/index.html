@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Filter Modal</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <header class="modalHeader">
+          <div class="modalHeader__title">Filter</div>
+          <div class="modalHeader__icon--close"></div>
+        </header>
+        <div class="searchBox">
+          <div class="searchBox__title box-title">SEARCH BY KEYWORD</div>
+          <div class="searchBox__input"></div>
+          <div class="searchBox__input--icon"></div>
+        </div>
+        <div class="viewListBox">
+          <div class="viewListBox__title box-title">VIEW</div>
+          <ul class="viewListBox__list">
+            <li class="viewListBox__listItem">
+              <input type="radio" id="list-item1" /><label for="list-item1"
+                >All job posts</label
+              >
+            </li>
+            <li class="viewListBox__listItem">
+              <input type="radio" id="list-item2" /><label for="list-item2"
+                >Active job posts</label
+              >
+            </li>
+            <li class="viewListBox__listItem">
+              <input type="radio" id="list-item3" /><label for="list-item3"
+                >Archived job posts</label
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="includeBtnBox">
+          <div class="includeBtnBox__title box-title"></div>
+          <div class="includeBtnBox__checkBox">
+            <input type="checkbox" id="checkbox" /><label for="checkbox"
+              >Jobs shared with me
+            </label>
+          </div>
+        </div>
+        <div class="btn"></div>
+      </div>
+    </div>
+  </body>
+</html>
