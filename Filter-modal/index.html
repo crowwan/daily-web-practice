@@ -24,33 +24,45 @@
         </header>
         <div class="searchBox">
           <div class="searchBox__title box-title">SEARCH BY KEYWORD</div>
-          <div class="searchBox__input"></div>
-          <div class="searchBox__icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
+          <label for="search">
+            <input
+              class="searchBox__input"
+              placeholder="Search jobs"
+              id="search"
+            />
+            <div class="searchBox__icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </label>
         </div>
         <div class="viewListBox">
           <div class="viewListBox__title box-title">VIEW</div>
           <ul class="viewListBox__list">
             <li class="viewListBox__listItem">
-              <input type="radio" id="list-item1" /><label for="list-item1"
-                >All job posts</label
+              <input type="radio" id="list-item1" name="radio" />
+              <label for="list-item1">
+                <div class="viewListBox__radio"></div>
+                All job posts
+              </label>
+            </li>
+            <li class="viewListBox__listItem">
+              <input type="radio" id="list-item2" name="radio" />
+              <label for="list-item2"
+                ><div class="viewListBox__radio"></div>
+                Active job posts</label
               >
             </li>
             <li class="viewListBox__listItem">
-              <input type="radio" id="list-item2" /><label for="list-item2"
-                >Active job posts</label
-              >
-            </li>
-            <li class="viewListBox__listItem">
-              <input type="radio" id="list-item3" /><label for="list-item3"
-                >Archived job posts</label
+              <input type="radio" id="list-item3" name="radio" /><label
+                for="list-item3"
+                ><div class="viewListBox__radio"></div>
+                Archived job posts</label
               >
             </li>
           </ul>
         </div>
         <div class="includeBtnBox">
-          <div class="includeBtnBox__title box-title"></div>
+          <div class="includeBtnBox__title box-title">INCLUDE</div>
           <div class="includeBtnBox__checkBox">
             <input type="checkbox" id="checkbox" />
             <div class="includeBtnBox__icon">
@@ -59,7 +71,7 @@
             <label for="checkbox">Jobs shared with me </label>
           </div>
         </div>
-        <div class="btn"></div>
+        <button class="btn">Save changes</button>
       </div>
     </div>
   </body>
