@@ -47,3 +47,15 @@ https://uidesigndaily.com/license
 네비게이션은 `radio input`으로 구현했고, 태그들은 `checkbox input`으로 구현했습니다.
 
 스크롤은 문서 전체에서 보이지 않게 처리했습니다.
+
+## 3. Filter Modal
+
+필터 모달창입니다.
+
+![filter-modal](./Mockup-img/filter-modal.png)
+
+이전 목업들과 비슷하게 구현했는데 라디오 부분의 동그라미 요소를 `::after` 가상 선택자로 구현하면 쉬울 것이라 생각했지만, 정렬에 문제가 있었습니다.
+
+> label태그에 `::after`를 통해 구현했을 때는 `lable`태그 다음에 요소가 생성되기 때문에 `position: absolute`가 불가피한데 이렇게 되면 글자와 가상 요소를 떨어뜨릴 때 `margin`이 적용이 안되고, `padding`의 경우 같이 적용되기 때문에 사용할 수 없었습니다.
+
+이 문제는 처음 `div`를 글자 앞에 생성하는 방법을 시도해서 성공했지만, 생각해보니 `::before`를 사용하게 되면 `position:absolute`없이 요소가 왼쪽에 생기기 때문에 `margin`을 이용할 수 있을 것 같아 적용했더니 잘 작동하는 것을 확인했습니다.

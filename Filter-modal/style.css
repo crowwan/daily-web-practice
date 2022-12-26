@@ -87,7 +87,7 @@ label {
   align-items: center;
 }
 
-.viewListBox__radio {
+.viewListBox__listItem label::before {
   content: "";
   width: 2rem;
   height: 2rem;
@@ -98,7 +98,7 @@ label {
   box-sizing: border-box;
   margin-right: 1rem;
 }
-input[type="radio"]:checked + label .viewListBox__radio {
+input[type="radio"]:checked + label::before {
   background-color: var(--font-color);
 }
 
