@@ -144,15 +144,6 @@ button {
 
 /* media query */
 
-@media screen and (orientation: portrait) {
-  html {
-    font-size: 32px;
-  }
-  .container {
-    max-width: 80vw;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .container {
     max-width: 80vw;
