@@ -13,5 +13,39 @@
     />
     <title>Enter password</title>
   </head>
-  <body></body>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <header class="header">
+          <h2 class="header__title">Enter your password</h2>
+        </header>
+        <div class="profile">
+          <div class="profile__img"></div>
+          <div class="profile__description">
+            <span class="profile__description--sub">Business Account</span
+            ><span class="profile__description--userName">Sarah bills</span>
+          </div>
+        </div>
+        <div class="passwordBox">
+          <div class="passwordBox__text"></div>
+          <input type="password" />
+        </div>
+        <section class="btnSection">
+          <section class="btnSection__staySignedinSection">
+            <input type="checkbox" id="stay" /><label
+              for="stay"
+              class="staySignedinSection__text"
+              >Stay signed in</label
+            >
+          </section>
+          <section class="submitSection">
+            <button class="submitSection__btn">Continue</button>
+          </section>
+        </section>
+        <div class="reset">
+          <button class="reset__btn">Reset password</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
