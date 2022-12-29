@@ -59,3 +59,5 @@ https://uidesigndaily.com/license
 > label태그에 `::after`를 통해 구현했을 때는 `lable`태그 다음에 요소가 생성되기 때문에 `position: absolute`가 불가피한데 이렇게 되면 글자와 가상 요소를 떨어뜨릴 때 `margin`이 적용이 안되고, `padding`의 경우 같이 적용되기 때문에 사용할 수 없었습니다.
 
 이 문제는 처음 `div`를 글자 앞에 생성하는 방법을 시도해서 성공했지만, 생각해보니 `::before`를 사용하게 되면 `position:absolute`없이 요소가 왼쪽에 생기기 때문에 `margin`을 이용할 수 있을 것 같아 적용했더니 잘 작동하는 것을 확인했습니다.
+
+test
