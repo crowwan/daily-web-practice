@@ -2,9 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Collections list</title>
   </head>
-  <body></body>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <header class="header">
+          <div class="header__title">Popular Collections</div>
+          <ul class="header__tags">
+            <li class="header__tagItem">profile</li>
+            <li class="header__tagItem">New York</li>
+            <li class="header__tagItem">Relaxing</li>
+            <li class="header__tagItem">Person</li>
+            <li class="header__tagItem">Fashion</li>
+          </ul>
+        </header>
+        <div class="componentsBox">
+          <div class="componentsBox__components">
+            <div class="components__imgBox">
+              <div class="imgBox__img--main"></div>
+              <div class="imgBox__img--sub"></div>
+              <div class="imgBox__img--sub"></div>
+              <div class="imgBox__img--sub"></div>
+            </div>
+            <div class="components__footer">
+              <div class="components__title">People</div>
+              <i class="fa-regular fa-image"></i>
+              <div class="components__like">144</div>
+            </div>
+          </div>
+          <div class="componentsBox__components">
+            <div class="components__imgBox">
+              <div class="imgBox__img--main"></div>
+              <div class="imgBox__img--sub"></div>
+              <div class="imgBox__img--sub"></div>
+              <div class="imgBox__img--sub"></div>
+              <div class="components__footer">
+                <div class="components__title">Nature</div>
+                <i class="fa-regular fa-image"></i>
+                <div class="components__like">7K</div>
+              </div>
+            </div>
+          </div>
+          <div class="componentsBox__components">
+            <div class="components__imgBox">
+              <div class="imgBox__img--main"></div>
+              <div class="imgBox__img--sub"></div>
+              <div class="imgBox__img--sub"></div>
+              <div class="imgBox__img--sub"></div>
+              <div class="components__footer">
+                <div class="components__title">History</div>
+                <i class="fa-regular fa-image"></i>
+                <div class="components__like">431</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
